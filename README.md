@@ -6,11 +6,18 @@
 
 ### Data
 * Nodes number = 8 ;
-* Hub-to-Hub discount factor (*alpha*) = 0.65 ;
-* [Capacities](./capacity.csv/) ;
-* [Flows](./flow.csv/) ;
-* [Fixed Costs](./fixCost.csv/) ;
-* [Variable Costs](./varCost.csv/) ;
+* Hub-to-Hub discount factor (*alpha*) ;\
+![Hub-to-Hub discount factor](./Hub-to-Hub_discount_factor.png/)
+* [Capacities](./capacity.csv/) ;\
+![Capacities](./Capacities.png/)
+* [Flows](./flow.csv/) ;\
+![Flows](./Flows.png/)
+* [Fixed Costs](./fixCost.csv/) ;\
+![Fixed Costs](./Fixed_Costs.png/)
+* [Variable Costs](./varCost.csv/) ;\
+![Variable Costs](./Variable_costs.png/)
 
 ### Result
-[Genetic_Algorithm_for_Hub_Location_Problem_1.pdf](./Genetic_Algorithm_for_Hub_Location_Problem_1.pdf/)
+The *optimal solution* is a network with **3 hubs** and 5 spokes :\
+![Solution for small network](./Solution_of_HLP_by_GA.png/)\
+For more details, please read this [document](./Genetic_Algorithm_for_Hub_Location_Problem_1.pdf/).
